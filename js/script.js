@@ -85,8 +85,8 @@ function printQuote(){
   document.getElementById('quote-box').innerHTML = quoteHTML; 
 
   // Change background color
-  colors = ['red', 'blue', 'green', 'yellow', 'pink']
-  rndColor = Math.floor(Math.random() * 6);
+  let colors = ['red', 'blue', 'green', 'yellow', 'pink']
+  let rndColor = Math.floor(Math.random() * 5);
   document.body.style.backgroundColor = colors[rndColor];
   ;
 
