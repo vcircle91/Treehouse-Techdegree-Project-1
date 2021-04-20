@@ -8,7 +8,7 @@ project 1 - A Random Quote Generator
 ***/
 
 // Create a variable named quotes and set it equal to an empty array.
-// I am following a untypical approach here: First I declare my array, and push empty objects into it. Later I add values with bracket syntax.
+// I am following some untypical approach here: First I declare my array, and push empty objects into it. Later I add values with bracket syntax.
 let quotes = [];
 
 // Add five empty objects to your quotes array.
